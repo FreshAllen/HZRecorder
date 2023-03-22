@@ -1,0 +1,11 @@
+framework module HZRecorder {
+  umbrella header "HZRecorder.h"
+
+  export *
+  module * { export * }
+}
+
+module HZRecorder.Swift {
+  header "HZRecorder-Swift.h"
+  requires objc
+}
